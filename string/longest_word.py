@@ -9,5 +9,7 @@ def longest_word(list):
          long_lenth=len(word)        
     return long_word,long_lenth
 list=['apple','orange','grape','adithyadas','athuldas']
-print(longest_word(list))
+result=(longest_word(list))
+print("longest word = ",result[0])
+print("length of the word = ",result[1])
             
